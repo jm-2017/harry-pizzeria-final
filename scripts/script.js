@@ -7,7 +7,8 @@ $(()=> {
   
   // Prints out name & address 
    console.log("Customer Full Name:", $('#fname').val());  
-   console.log("Customer address:", $('#address').val());  
+   console.log("Customer Phone Number:", $('#phone').val());
+   console.log("Customer Address:", $('#address').val());  
 
   // Prints out selected size & style
    console.log("Selected Pizza Size:",
