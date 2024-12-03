@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>final-dev-harry</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
+<link rel="stylesheet" href="styles/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+  <body>
+    <div class="main">
+      <nav class="nav-bar">
+        <ul>
+          <li><a href="hhttps://www.fcbarcelona.com/en/"> Pizzeria</a></li>
+          <li><a href="https://codepen.io/jm-2017/pen/YzmwxZj"> Repo </a></li>
+          <li><a href="#"> NuValidator </a></li>
+        </ul>
+      </nav>
+    </div>
+  </body>
+</html>
+<br>
+
+<h1> 🍕 Pizzeria Janet 🍕</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 card mt-4 offset-md-3">
+<h2> Start your order ➡️ </h2>
+<!--choosing pizza size, type, toppings  -->
+<div style="color: Green;               
+                  font-size : 17px;
+                  font-weight : bold;
+                  font-family : courier;" class="form-check">
+        <input type="radio" class="form-check-input" id="radio1" name="optradio" value="Pizza"> Pizza
+        <label class="form-check-label" for="radio1"></label>
+        <select style="color : FireBrick; font-weight : bold;" id="pizzaSize" class="form-select" aria-label="Default select example">
+          <option selected disabled> Pizza Size </option>
+        </select>
+  <br>
+        <select style="color : FireBrick; font-weight : bold;" id="pizzaType" class="form-select" aria-label="Default select example">
+          <option selected disabled> Pizza Type </option>
+        </select>
+  <br>
+         <p2> Preffered Toppings? </p2>
+    <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="pep" id="checkPep">
+    <label class="form-check-label" for="flexCheckDefault">
+     Pepporoni
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="onion" id="checkOnion">
+    <label class="form-check-label" for="flexCheckChecked">
+     Onion
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="jal" id="checkJal">
+    <label class="form-check-label" for="flexCheckChecked">
+     Jalapeno
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="pine" id="checkPine">
+    <label class="form-check-label" for="flexCheckChecked">
+     Pineapple
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="shrooms" id="checkShrooms">
+    <label class="form-check-label" for="flexCheckChecked">
+     Mushrooms
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="olives" id="checkOlives">
+    <label class="form-check-label" for="flexCheckChecked">
+     Black olives
+    </label>
+  </div>
+  <br>
+
+<!-- wings options -->
+  <p> Do you want any wings with your order? 🍗 <p>
+   <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="six" id="checkSix">
+    <label class="form-check-label" for="flexCheckDefault">
+     6 pc Wings
+    </label>
+  </div>
+   <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="twelve" id="checkTwelve">
+    <label class="form-check-label" for="flexCheckDefault">
+     12 pc Wings
+    </label>
+  </div>
+  <select style="color: Green;               
+                     font-size : 17px;
+                     font-weight : bold;"
+              id="boneInFlavor" class="form-select" aria-label="Default   select example">
+    <option selected > Bone-in </option>
+    <option value="1"> BBQ </option>
+    <option value="2"> Chipotle  </option>
+    <option value="3"> Honey - BBQ </option>
+    <option value="4"> Asian Zing</option>
+    <option value="5"> Buffalo</option>
+    </select>
+  <br>
+  <select style="color: Green;               
+                     font-size : 17px;
+                     font-weight : bold;"
+              id="bonelessFlavor" class="form-select" aria-label="Default   select example">
+    <option selected > Boneless </option>
+     <option value="1"> BBQ </option>
+    <option value="2"> Chipotle  </option>
+    <option value="3"> Honey - BBQ </option>
+    <option value="4"> Asian Zing</option>
+    <option value="5"> Buffalo</option>
+    </select>
+  <br>
+  
+<!-- they can check whether they want dessert -->
+        <p2> Do you want any desserts with your order? 🍮🍰 </p2>
+    <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="brownie" id="checkBrownie">
+    <label class="form-check-label" for="flexCheckDefault">
+     Brownie
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="cookie" id="checkCookie">
+    <label class="form-check-label" for="flexCheckChecked">
+     Cookie Cake
+    </label>
+  </div>
+   <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="shortcake" id="checkShortcake">
+    <label class="form-check-label" for="flexCheckChecked">
+     Strawberry Shortcake
+    </label>
+  </div>
+<br>
+    
+<!-- Complementary drink   -->
+  <select style="color: Green;         
+                     font-size : 17px;
+                     font-weight : bold;"
+              id="inputDrink" class="form-select" aria-label="Default   select example">
+    <option selected > All orders come with liter drink, select option:🥤 </option>
+    <option value="1"> Dr. Pepper </option>
+    <option value="2"> Mt. Dew  </option>
+    <option value="3"> Coca Cola </option>
+    <option value="4"> Fanta </option>
+    <option value="5"> Sprite </option>
+    </select>
+  <br>
+  
+<!-- customer inputs personal info  -->
+  <p> Enter name and address for order</p>
+<form action="/action_page.php">
+  <label for="fname">Full name:</label>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="address"> Address: </label>
+  <input type="text" id="address" name="address"><br><br>
+  
+<!-- Submit -->
+        <input style=" font-family : courier; 
+                      color : Green; 
+                      font-weight : bold;
+                      padding : 5px"            
+        id="btnSubmit" class="btn" type="submit" value="Click here to submit!"> </input>
+    </form>
+
+  </div>
+</div>
+<!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.1/jquery-ui.min.js'></script><script  src="scripts/script.js"></script>
+
+</body>
+</html>
