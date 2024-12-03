@@ -10,8 +10,8 @@ $(()=> {
    
    console.log("Selected Pizza Size:",
     $(`#pizzaSize`).find(":selected").text()); 
-   console.log("Selected Pizza Type:",
-    $(`#pizzaType`).find(":selected").text()); 
+   console.log("Selected Pizza Style:",
+    $(`#pizzaStyle`).find(":selected").text()); 
    
    if($('#checkPep').is(':checked')){
      console.log("Checkbox Pep Value:", $('#checkPep').val()); 
