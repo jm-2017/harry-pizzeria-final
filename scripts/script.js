@@ -5,18 +5,18 @@ $(()=> {
  $('#btnSubmit').on('click', (event)=> {
    event.preventDefault(); 
   
-  // Prints out name, phone, & address 
+  // Prints out to console name, phone, & address 
    console.log("Customer Full Name:", $('#fname').val());  
    console.log("Customer Phone Number:", $('#phone').val());
    console.log("Customer Address:", $('#address').val());  
 
-  // Prints out selected size & style
+  // Prints out to console selected size & style
    console.log("Selected Pizza Size:",
     $(`#pizzaSize`).find(":selected").text()); 
    console.log("Selected Pizza Style:",
     $(`#pizzaStyle`).find(":selected").text()); 
 
-  // Prints out which toppings & wing piecex selected 
+  // Prints out to console which toppings & wing pieces selected 
    if($('#checkPep').is(':checked')){
      console.log("Checkbox Pep Value:", $('#checkPep').val()); 
    }
@@ -41,7 +41,7 @@ $(()=> {
     if($('#checkTwelve').is(':checked')){
      console.log("Checkbox Twelve pc wings Value:", $('#checkTwelve').val()); 
    }
-   // Prints out which style wings & drink chosen
+   // Prints out to console which style wings & drink chosen
     console.log("Selected Bone-in flavor:",  $('#boneInFlavor').find(":selected").text());
     console.log("Selected Boneless flavor:",  $('#bonelessFlavor').find(":selected").text());
     console.log("Selected Drink choice:",  $('#inputDrink').find(":selected").text());
