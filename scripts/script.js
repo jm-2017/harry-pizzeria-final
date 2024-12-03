@@ -64,12 +64,16 @@ $(function () {
         .append(`<option value="Medium"> Medium </option>`)
         .append(`<option value="Small"> Small </option>`);
       
-      $("#pizzaType")
+      $("#pizzaStyle")
         .empty()
-        .append(`<option value="Choose pizza type"> Choose pizza type </option>`)
+        .append(`<option value="Choose Style"> Choose Style </option>`)
         .append(`<option value="Classic"> Classic </option>`)
         .append(`<option value="Hawaiian"> Hawaiian </option>`)
-        .append(`<option value="Roman style"> Roman style </option>`);
+        .append(`<option value="Chicago deep dish"> Chicago deep dish </option>`)
+        .append(`<option value="Cheese"> Cheese </option>`)
+        .append(`<option value="Buffalo"> Buffalo </option>`)
+        .append(`<option value="Magherita"> Magherita </option>`)
+        .append(`<option value="Roman"> Roman  </option>`);
      
     } 
     else {
