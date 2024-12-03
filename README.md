@@ -1,5 +1,5 @@
 As a frequent orderer
 
-I want to load in my favorite order 
+I want to order my go to pizza combo,
 
-So That I can start my pizza order.
+So That I can eat my favorite pizza dinner
