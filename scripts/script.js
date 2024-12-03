@@ -5,14 +5,17 @@ $(()=> {
  $('#btnSubmit').on('click', (event)=> {
    event.preventDefault(); 
   
+  // Prints out name & address 
    console.log("Customer Full Name:", $('#fname').val());  
    console.log("Customer address:", $('#address').val());  
-   
+
+  // Prints out selected size & style
    console.log("Selected Pizza Size:",
     $(`#pizzaSize`).find(":selected").text()); 
    console.log("Selected Pizza Style:",
     $(`#pizzaStyle`).find(":selected").text()); 
-   
+
+  // Prints out which toppings & wing piecex selected 
    if($('#checkPep').is(':checked')){
      console.log("Checkbox Pep Value:", $('#checkPep').val()); 
    }
@@ -37,7 +40,7 @@ $(()=> {
     if($('#checkTwelve').is(':checked')){
      console.log("Checkbox Twelve pc wings Value:", $('#checkTwelve').val()); 
    }
-   
+   // Prints out which style wings & drink chosen
     console.log("Selected Bone-in flavor:",  $('#boneInFlavor').find(":selected").text());
     console.log("Selected Boneless flavor:",  $('#bonelessFlavor').find(":selected").text());
     console.log("Selected Drink choice:",  $('#inputDrink').find(":selected").text());
@@ -45,13 +48,13 @@ $(()=> {
 });
 
 $(function () {
-  //what radio value did they select?
+  //what radio value did they select
 
   $("#formSubmit").on("click", (e) => {
     e.preventDefault();
     });
       
-  
+  // Attaches options to pizza radio button
   $("input[type=radio]").on("change", function () {
     let radioChoice = $("input[type=radio]:checked").val(); // A or B
 
