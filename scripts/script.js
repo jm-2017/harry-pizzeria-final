@@ -5,7 +5,7 @@ $(()=> {
  $('#btnSubmit').on('click', (event)=> {
    event.preventDefault(); 
   
-  // Prints out name & address 
+  // Prints out name, phone, & address 
    console.log("Customer Full Name:", $('#fname').val());  
    console.log("Customer Phone Number:", $('#phone').val());
    console.log("Customer Address:", $('#address').val());  
